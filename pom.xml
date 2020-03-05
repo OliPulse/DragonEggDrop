@@ -31,18 +31,10 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot-api</artifactId>
-      <version>1.14.4-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>org.bukkit</groupId>
-      <artifactId>craftbukkit12</artifactId>
-      <version>craftbukkit-1_15_R1</version>
-      <type>jar</type>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/repo/craftbukkit-1_15_R1.jar</systemPath>
+      <artifactId>craftbukkit</artifactId>
+      <version>1.15.2-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 </project>
